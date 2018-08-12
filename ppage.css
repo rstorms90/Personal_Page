@@ -5,27 +5,44 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 23px;;
+    font-size: 23px;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    float: right;
+}
+
+span {
+    display: inline;
 }
 
 a {
-    
+    display: inline-block;
 }
 
-#p1 {
-
-}
-
-#p2 {
-
+.fa-github {
+    color: rgb(0, 119, 181);
+    font-size: 20px;
 }
 
 body {
     font-family: Montserrat;
+    background: white;
+    color: white;
+}
+
+.pageOne {
     background:url("https://images.unsplash.com/photo-1533879767586-ec61e7d5b31d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d353f5955ecda4827c18699a231a423&auto=format&fit=crop&w=2550&q=80");
     background-size: cover;
-    margin-top: -5px;
-    height: 1000px;
+    height: 1100px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .block{
@@ -60,14 +77,13 @@ body {
 }
 
 .botnav {
-    padding: 15px;
-    width: 31%;
     margin: auto auto;
+    text-align: center;
 }
 
 .botnav a {
     color: white;
-    background-color: black;
+    background: rgba(0, 0, 0, .5);
     text-align: center;
     padding: 15px;
     text-decoration: none;
@@ -78,4 +94,39 @@ body {
     background-color: white;
     color: black;
     border-radius: 20px 10px;
+}
+
+.gif {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.wrapper2 {
+    margin-top: 15px;
+    display: grid;
+    justify-items: right;
+    grid-template-columns: 1fr;
+}
+
+div.block2 {
+    background: rgba(0, 0, 0, .5);
+    padding: 5px;
+    margin-right: 250px;
+    border-radius: 25px;
+}
+
+.pageTwo {
+    background:url("https://images.unsplash.com/photo-1506878206813-92402b8ded23?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0a65a02649e54b06f6f8148468a3d50a&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    margin-top: -3%;
+    height: 800px;
+}
+
+.aboutMe{
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
 }
