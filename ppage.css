@@ -1,11 +1,32 @@
 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 55px;
+    letter-spacing: 10px;
 }
 
 h2 {
     color: white;
     font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.bg {
+    color: black;
+}
+
+hr {
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, steelblue, white, steelblue);
+    background-image: -moz-linear-gradient(left, steelblue, white, steelblue);
+    background-image: -ms-linear-gradient(left, steelblue, white, steelblue);
+    background-image: -o-linear-gradient(left, steelblue, white, steelblue); 
+}
+
+.direction {
+    color: black;
+    font-size: 40px;
+    padding: 40px;
 }
 
 h4 {
@@ -22,7 +43,12 @@ a {
     display: inline-block;
 }
 
-.fa-github {
+.gitIcon {
+    color: rgb(255, 72, 0);
+    font-size: 20px;
+}
+
+.linkedIcon {
     color: rgb(0, 119, 181);
     font-size: 20px;
 }
@@ -129,4 +155,18 @@ div.block2 {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
+}
+
+.block3 {
+    background: rgb(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.wrapper4 {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 40% auto;
 }
